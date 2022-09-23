@@ -1,0 +1,91 @@
+.sidebar1 {
+  margin-left: 225px;
+  height: 100vh;
+  transition: 350ms;
+  background: #ffffff;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+  
+}
+
+.sidebar2 {
+  margin-left: 0;
+  height: 100vh;
+  transition: 350ms;
+  background: #ffffff;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+ 
+}
+
+
+
+
+/* Responsive breakpoint styles*/
+
+
+@media screen and (max-width:1200px) {
+  .sidebar1 {
+    margin-left: 185px;
+    height: 100vh;
+    transition: 350ms;
+    background: #ffffff;
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 11px;
+  }
+
+}
+
+
+
+
+@media screen and (max-width:992px) {
+  .sidebar1 {
+    margin-left: 145px;
+    height:100vh;
+    overflow-y: hidden;
+    transition: 350ms;
+    background: #ffffff;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 11px;
+  }
+
+}
+
+@media screen and (max-width:768px) {
+  .sidebar1 {
+    margin-left: 135px;
+    height: 100vh;
+    overflow-y: hidden;
+    transition: 350ms;
+    background: #ffffff;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 11px;
+  }
+
+}
+
+
+@media screen and (max-width:576px) {
+  .sidebar1 {
+    margin-left: 75px!important;
+    height: 100vh;
+    transition: 350ms;
+    background: #ffffff;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 11px;
+  }
+
+}
+
+
